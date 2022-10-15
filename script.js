@@ -77,8 +77,7 @@ const displayBadTask = () => {
 
     document.getElementById("bad-task").innerHTML = str;
     totalBadTaskHours();
-  };
-
+};
 
 
 const totalTaskHours = () => {
@@ -96,7 +95,7 @@ return total;
 
 }
 
-const deleteTask = (i)=>{`
+const deleteTask = (i)=>{``
     if(!window.confirm("Are you sure you want to delete")) {
         return;
     }
