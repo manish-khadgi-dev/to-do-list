@@ -96,7 +96,7 @@ return total;
 
 }
 
-const deleteTask = (i)=>{
+const deleteTask = (i)=>{`
     if(!window.confirm("Are you sure you want to delete")) {
         return;
     }
